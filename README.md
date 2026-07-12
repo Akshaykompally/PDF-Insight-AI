@@ -1,4 +1,4 @@
-# 📄 PDF Insight AI
+# 📄 PdfGene
 
 An AI-powered PDF Question Answering application built using **Mistral AI**, **LangChain**, **ChromaDB**, and **Streamlit**. Upload any PDF and ask questions in natural language. The application retrieves the most relevant content from the document using Retrieval-Augmented Generation (RAG) and generates accurate answers based only on the uploaded PDF.
 
@@ -69,11 +69,11 @@ PDF-Insight-AI/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/PDF-Insight-AI.git
+git clone https://github.com/Akshaykompally/PdfGene.git
 ```
 
 ```bash
-cd PDF-Insight-AI
+cd PdfGene
 ```
 
 ### 2. Create a virtual environment
@@ -110,7 +110,7 @@ pip install -r requirements.txt
 Create a `.env` file in the project root.
 
 ```env
-MISTRAL_API_KEY=your_mistral_api_key
+MISTRAL_API_KEY = your_mistral_api_key
 ```
 
 > **Note:** Never commit your `.env` file to GitHub.
